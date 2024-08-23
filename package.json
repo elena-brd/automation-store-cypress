@@ -1,0 +1,15 @@
+{
+  "name": "automation-store-cypress",
+  "version": "1.0.0",
+  "description": "Automation Test Store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "automationTestStoreRun" : "npx cypress run --spec cypress/e2e/automation-test-store"
+  },
+  "author": "Lena Brd",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.3"
+  }
+}
