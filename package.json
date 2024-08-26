@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "automationTestStoreRun" : "npx cypress run --spec cypress/e2e/automation-test-store"
+    "automationTestStoreRun": "npx cypress run --spec cypress/e2e/automation-test-store",
+    "webdriver-uni": "npx cypress run --spec cypress/e2e/webdriveruni",
+    "runAlltests": "npx cypress run"
   },
   "author": "Lena Brd",
   "license": "ISC",
